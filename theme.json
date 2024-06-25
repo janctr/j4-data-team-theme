@@ -1,0 +1,163 @@
+{
+    "_inherit": true,
+    "_cards": true,
+    "_variables": {
+      "@TitleSize": "16px",
+      "@SubtitleSize": "15px",
+      "@TextSize": "12px",
+      "@FooterSize": "10px",
+      "@TitleColor": "#888888",
+      "@SubtitleColor": "#888888",
+      "@TextColor": "#888888",
+      "@FooterColor": "#888888",
+      "@BackgroundColor": "#ffffff",
+      "@AxisMajorColor": "#eeeeee",
+      "@AxisMinorColor": "#eeeeee"
+    },
+    "customStyles": [
+      {
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+      }
+    ],
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "dataColors": {
+      "primaryColor": "#004d69 ",
+      "othersColor": "#CC9B00",
+      "errorColor": "#CC4000",
+      "nullColor": "#CCCCCC"
+    },
+    "object": {
+      "title": {
+        "main": {
+          "color": "@TitleColor",
+          "fontSize": "@TitleSize"
+        },
+        "subTitle": {
+          "color": "@SubtitleColor",
+          "fontSize": "@SubtitleSize"
+        },
+        "footer": {
+          "color": "@FooterColor",
+          "fontSize": "@FooterSize",
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        },
+        "value": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "axis": {
+        "title": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        },
+        "label": {
+          "name": {
+            "color": "@TextColor",
+            "fontSize": "@TextSize"
+          }
+        },
+        "line": {
+          "major": {
+            "color": "#eeeeee"
+          },
+          "minor": {
+            "color": "#eeeeee"
+          }
+        }
+      },
+      "grid": {
+        "line": {
+          "highContrast": {
+            "color": "#eeeeee"
+          },
+          "major": {
+            "color": "#eeeeee"
+          },
+          "minor": {
+            "color": "#eeeeee"
+          }
+        }
+      },
+      "referenceLine": {
+        "label": {
+          "name": {
+            "color": "@TextColor",
+            "fontSize": "@TextSize"
+          }
+        },
+        "outOfBounds": {
+          "color": "@TextColor",
+          "backgroundColor": "#ffffff",
+          "fontSize": "@TextSize"
+        }
+      },
+      "legend": {
+        "title": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        },
+        "label": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      }
+    },
+    "palettes": {
+      "data": [
+        {
+          "name": "Dimension Color Palette 1",
+          "translation": "Color Palette 1",
+          "propertyValue": "dpb0h",
+          "type": "row",
+          "scale": [
+            "#004d69",
+            "#717073",
+            "#8B0000",
+            "#e3bb3b",
+            "#B8B8B9",
+            "#80A6B4"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "name": "Blue Gradient",
+          "colors": [
+            "#004d69",
+            "#21627A",
+            "#42778B",
+            "#638D9D",
+            "#84A2AE",
+            "#A5B7BF",
+            "#C6CCD0"
+          ]
+        }
+      ]
+    },
+    "scales": [
+      {
+        "name": "Measure Color Palette 1",
+        "translation": "Color Palette 1",
+        "type": "class",
+        "propertyValue": "15fe0i",
+        "scale": [
+          "#004d69",
+          "#2A6B82",
+          "#55889B",
+          "#80A6B4",
+          "#AAC4CD",
+          "#D5E1E6"
+        ]
+      }
+    ]
+  }
