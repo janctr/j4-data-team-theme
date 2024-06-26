@@ -1,0 +1,297 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#0b5ed7",
+    "othersColor": "#ffc000",
+    "errorColor": "#ff0000",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#192957",
+          "#0039a6",
+          "#005a8b",
+          "#0089c4",
+          "#72b5cc",
+          "#0f204b",
+          "#003478",
+          "#0066a1",
+          "#7ba4d9",
+          "#b3c8e6",
+          "#22505f",
+          "#156570",
+          "#1e9d8b",
+          "#5bbbb7",
+          "#cae3e9",
+          "#024731",
+          "#00693c",
+          "#5b8f22",
+          "#b6bf00",
+          "#e0e96e",
+          "#772432",
+          "#983222",
+          "#e98300",
+          "#eeaf00",
+          "#fbd476",
+          "#662046",
+          "#91004b",
+          "#ec4371",
+          "#e59aaa",
+          "#e9c5cb",
+          "#42145f",
+          "#631d76",
+          "#7d0063",
+          "#b390bb",
+          "#dbcfe9"
+        ],
+        "name": "Simplicity",
+        "translation": "Simplicity",
+        "propertyValue": "q0f5rn",
+        "type": "row",
+        "_id": "5ab4f9e116fa1c02fb7a36fc"
+      },
+      {
+        "scale": [
+          "#005a8b",
+          "#0089c4",
+          "#7ba4d9",
+          "#b3c8e6"
+        ],
+        "name": "Blue",
+        "translation": "Blue",
+        "propertyValue": "jkrgvxa",
+        "type": "row",
+        "_id": "5ab91abe16fa1c02fb7a370b"
+      },
+      {
+        "scale": [
+          "#252525",
+          "#888888",
+          "#cccccc",
+          "#efefef"
+        ],
+        "name": "Gray",
+        "translation": "Gray",
+        "propertyValue": "fh0x3",
+        "type": "row",
+        "_id": "5ab91abe16fa1c02fb7a370a"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#192957",
+          "#0039a6",
+          "#005a8b",
+          "#0089c4",
+          "#72b5cc",
+          "#0f204b",
+          "#003478",
+          "#0066a1",
+          "#7ba4d9",
+          "#b3c8e6",
+          "#22505f",
+          "#156570",
+          "#1e9d8b",
+          "#5bbbb7",
+          "#cae3e9",
+          "#024731",
+          "#00693c",
+          "#5b8f22",
+          "#b6bf00",
+          "#e0e96e",
+          "#772432",
+          "#983222",
+          "#e98300",
+          "#eeaf00",
+          "#fbd476",
+          "#662046",
+          "#91004b",
+          "#ec4371",
+          "#e59aaa",
+          "#e9c5cb",
+          "#42145f",
+          "#631d76",
+          "#7d0063",
+          "#b390bb",
+          "#dbcfe9"
+        ],
+        "name": "Simplicity UI",
+        "_id": "5ab4d79c16fa1c02fb7a36fb"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#005a8b",
+        "#0089c4",
+        "#7ba4d9",
+        "#b3c8e6"
+      ],
+      "name": "Blue Gradient",
+      "translation": "Blue Gradient",
+      "type": "gradient",
+      "propertyValue": "8hrnnm",
+      "_id": "5ab4fad316fa1c02fb7a36fd"
+    },
+    {
+      "scale": [
+        "#ff0000",
+        "#ffc000",
+        "#00b050"
+      ],
+      "name": "Red Amber Green Gradient",
+      "translation": "Red Amber Green Gradient",
+      "type": "gradient",
+      "propertyValue": "lyvc1a",
+      "_id": "5ab4fb1416fa1c02fb7a36fe"
+    },
+    {
+      "scale": [
+        "#252525",
+        "#888888",
+        "#cccccc",
+        "#efefef"
+      ],
+      "name": "Graydient",
+      "translation": "Graydient",
+      "type": "gradient",
+      "propertyValue": "x6eel",
+      "_id": "5ab5039a16fa1c02fb7a36ff"
+    },
+    {
+      "scale": [
+        "#005a8b",
+        "#0089c4",
+        "#7ba4d9",
+        "#b3c8e6"
+      ],
+      "name": "Blue Classes",
+      "translation": "Blue Classes",
+      "type": "class",
+      "propertyValue": "6zhyhn",
+      "_id": "5ab921df16fa1c02fb7a370e"
+    },
+    {
+      "scale": [
+        "#252525",
+        "#888888",
+        "#cccccc",
+        "#efefef"
+      ],
+      "name": "Gray Classes",
+      "translation": "Gray Classes",
+      "type": "class",
+      "propertyValue": "9c8hr6",
+      "_id": "5ab921df16fa1c02fb7a370d"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#0b5ed7",
+    "@SubtitleColor": "#888888",
+    "@TextColor": "#888888",
+    "@FooterColor": "#888888",
+    "@BackgroundColor": "#ffffff",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
