@@ -1,0 +1,175 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#627a9c",
+    "othersColor": "#f1deb6",
+    "errorColor": "#d99477",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#627a9c",
+          "#92aac2",
+          "#f1deb6",
+          "#efba86",
+          "#d99477"
+        ],
+        "name": "Casual",
+        "translation": "Casual colors",
+        "propertyValue": "j4m56",
+        "type": "row",
+        "_id": "5ee62abca04760036601e6b4"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#627a9c",
+          "#92aac2",
+          "#f1deb6",
+          "#efba86",
+          "#d99477"
+        ],
+        "name": "Casual colors",
+        "_id": "5ee62abca04760036601e6b5"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#627a9c",
+        "#92aac2",
+        "#f1deb6",
+        "#efba86",
+        "#d99477"
+      ],
+      "name": "Casual Class",
+      "translation": "Casual Class",
+      "type": "class",
+      "propertyValue": "vbpqiq",
+      "_id": "5ee62abca04760036601e6b7"
+    },
+    {
+      "scale": [
+        "#627a9c",
+        "#92aac2",
+        "#f1deb6",
+        "#efba86",
+        "#d99477"
+      ],
+      "name": "Casual Gradient",
+      "translation": "Casual Gradient",
+      "type": "gradient",
+      "propertyValue": "k8bbq",
+      "_id": "5ee62abca04760036601e6b6"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#627a9c",
+    "@SubtitleColor": "#92aac2",
+    "@TextColor": "#627a9c",
+    "@FooterColor": "#627a9c",
+    "@BackgroundColor": "#ffffff",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
